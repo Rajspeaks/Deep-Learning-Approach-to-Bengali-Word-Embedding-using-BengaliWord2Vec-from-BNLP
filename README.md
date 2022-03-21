@@ -10,7 +10,7 @@ _**Source Link: https://bnlp.readthedocs.io/en/latest/#word-embedding**___
 
 _**BNLP GitHub : https://github.com/sagorbrur/bnlp**___
 
-### Installation:
+## Installation:
 
 * 
   pypi package installer(python 3.6, 3.7, 3.8 tested okay)
@@ -24,7 +24,7 @@ _**BNLP GitHub : https://github.com/sagorbrur/bnlp**___
 ## What is Word Embedding?
 
 A word embedding is a learned representation for text where words that have the same meaning have a similar representation.
-It is this approach to representing words and documents that may be considered one of the key breakthroughs of deep learning on challenging natural language processing problems
+It is this approach to representing words and documents that may be considered one of the key breakthroughs of deep learning on challenging natural language processing problems.
 
 ### What is Word2Vec?
 
@@ -51,6 +51,7 @@ BengaliWord2Vec is a Library function from BNLP Toolkit. It helps in embedding w
 - Repeated the previous step 9 times more but took different bengali sample words & took different no. of word limits to continue testing & got the output of approximately similar/relevant/nearest bengali words of that sample word mentioned in the code.
 
 ### Tools:
+
 1. Jupyter Notebook (You can use Colab also)
 2. BNLP; Link: https://bnlp.readthedocs.io/en/latest/#word-embedding
 
