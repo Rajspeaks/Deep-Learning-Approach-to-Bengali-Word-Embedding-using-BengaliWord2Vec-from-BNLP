@@ -10,6 +10,17 @@ _**Source Link: https://bnlp.readthedocs.io/en/latest/#word-embedding**___
 
 _**BNLP GitHub : https://github.com/sagorbrur/bnlp**___
 
+### Installation:
+
+* 
+  pypi package installer(python 3.6, 3.7, 3.8 tested okay)
+
+  ``pip install bnlp_toolkit``
+
+  or Upgrade
+
+  ``pip install -U bnlp_toolkit``
+
 ## What is Word Embedding?
 
 A word embedding is a learned representation for text where words that have the same meaning have a similar representation.
@@ -35,9 +46,9 @@ BengaliWord2Vec is a Library function from BNLP Toolkit. It helps in embedding w
 - At first I have imported BengaliWord2Vec function from BNLP.
 - Then we took a pre-trained model bnwiki_word2vec.model.
 - Took a bengali word and got the generate both the vector-shape and vector-values of that bengali word.
-- In the next step I have taken the same bengali word along with same pre-trained model like earlier one and then applied BengaliWord2Vec function. Hence, I got the output of bengali words carrying similar meaning of that taken bengali word in the code. Here I have limited the range of output to max 10 words of similar meaning in that code.
-- Repeated the previous step two times more but took the range of output to 20 & 30 words respectively to get similar meaning-carrying bengali words of that sample word in the code.
-- (Optional) I have tried to tokenize a bengali sentence using Word2Vec from gensim.
+- Repeated the above step by taking another bengali word.
+- In the next step I have taken a bengali word along with the pre-trained model (bnwiki_word2vec.model) and then applied BengaliWord2Vec function. Also, I have limited the range of output to max 10 words of similar meaning in that code. Hence, I got the output of 10 bengali words along with their vector values, carrying approximately similar/relevant/nearest meaning of that bengali word mentioned in the code. 
+- Repeated the previous step 9 times more but took different bengali sample words & took different no. of word limits to continue testing & got the output of approximately similar/relevant/nearest bengali words of that sample word mentioned in the code.
 
 ### Tools:
 1. Jupyter Notebook (You can use Colab also)
@@ -48,6 +59,10 @@ BengaliWord2Vec is a Library function from BNLP Toolkit. It helps in embedding w
 - [Rajdeep Das](https://github.com/Rajspeaks)
 
 LinkedIn Profile: https://www.linkedin.com/in/itsrajdeepdas/ 
+
+#### Note:
+
+All bengali words in the output are not similar meaning of thee word I took in code but many of them are close to the meaning. 
 
 ## Thank you
 
