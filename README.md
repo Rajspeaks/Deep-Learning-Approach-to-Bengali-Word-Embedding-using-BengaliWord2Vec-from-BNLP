@@ -19,7 +19,7 @@ It is this approach to representing words and documents that may be considered o
 
 Word2Vec is a statistical method for efficiently learning a standalone word embedding from a text corpus.
 
-### CBOW & Skip-Gram
+### What is CBOW & Skip-Gram?
 
 The CBOW model learns the embedding by predicting the current word based on its context. 
 The continuous skip-gram model learns by predicting the surrounding words given a current word.
