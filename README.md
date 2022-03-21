@@ -1,1 +1,1 @@
-# Bengali-Word-Embedding-using-BengaliWord2Vec
+# Bengali Word Embedding using BengaliWord2Vec
