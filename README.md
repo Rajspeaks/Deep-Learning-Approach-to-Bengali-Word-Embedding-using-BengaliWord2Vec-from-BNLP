@@ -44,7 +44,7 @@ BengaliWord2Vec is a Library function from BNLP Toolkit. It helps in embedding w
 ### Methodology:
 
 - At first I have imported BengaliWord2Vec function from BNLP.
-- Then we took a pre-trained model bnwiki_word2vec.model.
+- Then I took a pre-trained model bnwiki_word2vec.model.
 - Took a bengali word and got the generate both the vector-shape and vector-values of that bengali word.
 - Repeated the above step by taking another bengali word.
 - In the next step I have taken a bengali word along with the pre-trained model (bnwiki_word2vec.model) and then applied BengaliWord2Vec function. Also, I have limited the range of output to max 10 words of similar meaning in that code. Hence, I got the output of 10 bengali words along with their vector values, carrying approximately similar/relevant/nearest meaning of that bengali word mentioned in the code. 
