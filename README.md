@@ -52,8 +52,9 @@ BengaliWord2Vec is a Library function from BNLP Toolkit. It helps in embedding w
 
 ### Tools:
 
-1. Jupyter Notebook (You can use Colab also)
-2. BNLP; Link: https://bnlp.readthedocs.io/en/latest/#word-embedding
+1. Jupyter Notebook (You can use Google Colab also)
+2. Language: Python
+3. BNLP; Link: https://bnlp.readthedocs.io/en/latest/#word-embedding
 
 ### Developer:
 
